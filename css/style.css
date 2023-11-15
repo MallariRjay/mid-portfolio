@@ -30,7 +30,7 @@ li {
 .pok-pok {
     display: grid;
     grid-template-columns: 1.3fr 1.3fr;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     gap: 10rem;
 }
@@ -44,9 +44,9 @@ li {
     height: 50px;
     width: 200px;
     background-color: black;
-    border: solid 2px white;
+    border: solid 1px grey;
     border-radius: 20px;
-    color: white;
+    color: white ;
     font-size: 1.5rem;
     margin-top: 1px;
     
@@ -55,18 +55,18 @@ li {
 #About {
     height: 100vh;
     background-color: gray;
-    display: grid;
+    display: block;
     align-items: center;
     justify-content: center; 
     text-align: center;
-    margin: 0;
+    margin: 0 ;
     
     
 }
 
 #Portfolio {
     height: 100vh;
-    background-color: grey;
+    background-color: gray;
     display: grid;
     align-items: center;
     justify-content: center;
