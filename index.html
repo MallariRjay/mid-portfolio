@@ -9,18 +9,26 @@
 </head>
 
 <style>
-    
+    ul {
+        cursor: pointer;
+    }
+
+    .jinx {
+        max-width: 150rem;
+        margin: 0 auto;
+    }
 </style>
 
 <body>
+<section class="jinx">
     <header>
         <nav>
-            <img style="height: 300px;"src="./img/rm.logo.png" alt="">
+            <img style="height: 90px;"src="./img/rm.logo.png" alt="">
             <ul>
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>Services</li>
-                <li>About</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">About</a></li>
             </ul>
         </nav>
     </header>
@@ -88,6 +96,7 @@
     </section>
 
     <section id="Portfolio">
+        <h1 style="text-align: center; font-size: 3rem !important;">My Certificates</h1>
         <div style="display: flex; align-items: center;
             justify-content: center; gap: 1rem;">
             <div>
@@ -100,15 +109,27 @@
             </div>
         </div>
     </section>
+
+
     <section id="services">
         <div style="display: grid; grid-template-columns: 500px 500px; gap: 3rem; align-items: center; justify-content: center;
             color: black">
             <div style="display: grid; row-gap: 4rem;">
-                <div>
+                <div style="display: flex; gap: 2rem;">
                     <img style="height: 250px;" src="./img/ramjay.jpg" alt="">
+                    <p style="font-size: 20px;">
+                        Experienced Figma designer adept at creating visually compelling and user-centric website 
+                        designs. Transforming ideas into impactful digital experiences with precision and flair. 
+                        Let's collaborate to elevate your online presence.
+                    </p>
                 </div>
-                <div>
+                <div style="display: flex; align-items: center; gap: 2rem;">
                     <img style="height: 250px;" src="./img/ramjay.jpg   " alt="">
+                    <p style="font-size: 20px;">
+                        Skilled 3D modeler with a passion for turning concepts into captivating visual realities.
+                         From intricate details to lifelike renders, I bring creativity and precision to every project.
+                          Elevate your vision with my 3D modeling expertise.
+                    </p>
                 </div>
             </div>
 
@@ -125,5 +146,7 @@
             © 2023 Ramjay Mallari All rights reserved.
         </p>
     </section>
+</section>
+    
 </body>
 </html>
